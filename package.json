@@ -1,7 +1,7 @@
 {
   "name": "directives",
   "version": "1.0.0",
-  "description": "",
+  "description": "A very basic angular boilerplate with some products and a cart.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "angular": "^1.6.1"
-  }
+    "angular": "^1.6.1",
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "express-session": "^1.15.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattfro333/simple-cart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattfro333/simple-cart/issues"
+  },
+  "homepage": "https://github.com/mattfro333/simple-cart#readme"
 }

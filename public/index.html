@@ -13,7 +13,11 @@
       <p>Price: {{product.price | currency}}</p>
     </div>
   </div>
-  
+  <h1>Cart</h1>
+  <ul ng-repeat="product in cart">
+    <li>Name: {{product.name}}</li>
+  </ul>
+
   <script src="node_modules/angular/angular.js"></script>
   <script src="./app.js"></script>
   <script src="./mainCtrl.js"></script>
